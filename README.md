@@ -37,7 +37,7 @@ Unauthorized use of Maey’s content or branding is strictly prohibited.
 ##
 ATTRIBUTIONS & CREDITS
 ##
-Website Design and development Maryam Olaitan
+Website Design and Development Maryam Olaitan   https://www.maryamdev.vercel.app
 
 Arrow icon used in button design:
 
