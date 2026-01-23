@@ -4,9 +4,9 @@ This repository contains the frontend implementation of the official Maey websit
 The site reflects Maey’s philosophy of refined beauty—quiet, confident, and made to work for every lip.
 
 
-
+##
 ABOUT THIS PROJECT
-
+##
 This project showcases:
 
 A clean, responsive website architecture
@@ -22,9 +22,9 @@ Lightweight, scalable frontend implementation
 The goal is to communicate clarity, trust, and premium simplicity rather than volume.
 
 
-
+##
 USAGE & LICENSE
-
+##
 Copyright © 2026 Maey. All rights reserved.
 
 The contents of this repository are proprietary and provided for viewing and reference purposes only.
@@ -34,9 +34,9 @@ The website content—including, but not limited to, written copy, brand languag
 Unauthorized use of Maey’s content or branding is strictly prohibited.
 
 
-
+##
 ATTRIBUTIONS & CREDITS
-
+##
 Website Design and development Maryam Olaitan
 
 Arrow icon used in button design:
@@ -51,8 +51,8 @@ Link: https://www.flaticon.com/free-icon/right-arrow_2252525?term=arrow&page=2&p
 
 This asset is used in accordance with Flaticon’s attribution requirements.
 
-
+##
 NOTES
-
+##
 This repository does not grant permission to reuse Maey branding or content.
 For inquiries regarding collaboration, licensing, or usage, please contact the brand owner directly.
