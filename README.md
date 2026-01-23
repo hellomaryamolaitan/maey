@@ -1,11 +1,11 @@
-Maey — Official Website
-
 Maey is a minimalist beauty brand built on intention, simplicity, and inclusivity.
 This repository contains the frontend implementation of the official Maey website, designed to support a focused product launch with a conversion-driven layout, brand storytelling, and external checkout integration via Paystack.
 
 The site reflects Maey’s philosophy of refined beauty—quiet, confident, and made to work for every lip.
 
-##About This Project
+
+
+ABOUT THIS PROJECT
 
 This project showcases:
 
@@ -21,7 +21,9 @@ Lightweight, scalable frontend implementation
 
 The goal is to communicate clarity, trust, and premium simplicity rather than volume.
 
-##Usage & License
+
+
+USAGE & LICENSE
 
 Copyright © 2026 Maey. All rights reserved.
 
@@ -31,7 +33,9 @@ The website content—including, but not limited to, written copy, brand languag
 
 Unauthorized use of Maey’s content or branding is strictly prohibited.
 
-##Attribution & Credits
+
+
+ATTRIBUTIONS & CREDITS
 
 Website Design and development Maryam Olaitan
 
@@ -47,7 +51,8 @@ Link: https://www.flaticon.com/free-icon/right-arrow_2252525?term=arrow&page=2&p
 
 This asset is used in accordance with Flaticon’s attribution requirements.
 
-Notes
+
+NOTES
 
 This repository does not grant permission to reuse Maey branding or content.
 For inquiries regarding collaboration, licensing, or usage, please contact the brand owner directly.
