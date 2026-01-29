@@ -95,7 +95,7 @@ main {
   justify-content: center;
   text-align: center;
   color: var(--bg);
-  background-image: url(images/bg.png);
+  background-image: url(images/IMG_6552.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
@@ -479,4 +479,5 @@ footer {
   .final-cta h2 {
     font-size: 32px;
   }
+
 }
