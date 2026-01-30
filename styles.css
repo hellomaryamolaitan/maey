@@ -327,6 +327,10 @@ footer {
   margin-top: 60px;
 }
 
+footer .hidden {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   
   header {
@@ -481,3 +485,4 @@ footer {
   }
 
 }
+
