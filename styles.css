@@ -486,6 +486,13 @@ footer .hidden {
 
 }
 
+@media screen and (max-width: 428px) {
+  .hero h1 {
+    font-size: 24px;
+  }
+}
+
+
 
 
 
