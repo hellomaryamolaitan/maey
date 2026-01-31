@@ -286,6 +286,46 @@ h2 {
   padding: 8px 16px;
 }
 
+.gallery {
+  width: 100%;
+  height: max-content;
+  margin: 60px auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.gallery h2 {
+  margin-bottom: 40px;
+  color: var(--primary);
+}
+
+.img_container {
+  width: 100%;
+  height: max-content;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.img_container div {
+  width: 96%;
+  margin: 0 auto 20px auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.img_container div img {
+  width: 32%;
+  height: auto;
+  border-radius: 8px;
+}
+
 .philosophy {
   width: 80%;
   height: max-content;
@@ -488,6 +528,11 @@ footer .hidden {
     margin-bottom: 2px;
   }
 
+  .img_container div img {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  
   .philosophy {
     flex-flow: column;
     width: 92%;
@@ -528,6 +573,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
