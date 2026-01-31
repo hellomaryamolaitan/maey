@@ -510,6 +510,10 @@ footer .hidden {
     font-size: 32px;
   }
 
+  footer .social {
+  width: 60%;
+}
+
 }
 
 @media screen and (max-width: 328px) {
@@ -521,6 +525,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
