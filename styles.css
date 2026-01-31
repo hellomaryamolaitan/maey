@@ -132,7 +132,7 @@ main {
   color: var(--primary);
 }
 
-.hero span img, .final-cta span img {
+/* .hero span img, .final-cta span img {
   width: 28px;
   height: 20px; 
   margin-left: 8px;
@@ -150,7 +150,7 @@ main {
   100% {
     transform: translateX(0);
   }
-}
+} */
 
 .hero .btn:hover, .final-cta .btn:hover {
   opacity: 0.8;
@@ -495,6 +495,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
