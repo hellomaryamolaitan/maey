@@ -256,9 +256,15 @@ h2 {
   background-repeat: no-repeat;
 }
 
+/* .product:nth-child(2) {
+  background-image:  url(images/IMG_6591.png);
+}
 .product:nth-child(2) {
   background-image:  url(images/IMG_6591.png);
 }
+.product:nth-child(2) {
+  background-image:  url(images/IMG_6591.png);
+} */
 
 .product p {
   font-size: 14px;
@@ -515,6 +521,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
