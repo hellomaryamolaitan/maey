@@ -95,7 +95,7 @@ main {
   justify-content: center;
   text-align: center;
   color: var(--bg);
-  background-image: url(images/IMG_4130.JPEG);
+  background-image: url(images/IMG_4133.JPEG);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
@@ -118,7 +118,7 @@ main {
   margin: 0 auto;
   font-optical-sizing: auto;
   font-weight: 100;
-  /* font-style: italic; */
+  font-style: italic;
   font-size: 16px;
   color: var(--bg);
   margin-bottom: 30px;
@@ -485,6 +485,7 @@ footer .hidden {
   }
 
 }
+
 
 
 
