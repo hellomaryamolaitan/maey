@@ -99,6 +99,8 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
+
+  color: #8b0000;
 }
 
 .hero h1 {
@@ -485,6 +487,7 @@ footer .hidden {
   }
 
 }
+
 
 
 
