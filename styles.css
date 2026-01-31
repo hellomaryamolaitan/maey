@@ -97,7 +97,7 @@ main {
   color: var(--bg);
   background-image: url(images/IMG_4133.JPEG);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat; 
 }
 
@@ -485,6 +485,7 @@ footer .hidden {
   }
 
 }
+
 
 
 
