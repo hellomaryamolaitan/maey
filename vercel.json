@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/shop.html",
+      "destination": "/shop",
+      "permanent": true
+    }
+  ]
+}
