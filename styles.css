@@ -67,7 +67,6 @@ header a {
   color: #fff;
   padding: 8px 16px;
   border-radius: 28px;
-  font-weight: 600;
   font-family: "inter", sans-serif;
 }
 
@@ -573,6 +572,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
