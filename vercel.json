@@ -1,7 +1,7 @@
 {
   "redirects": [
     {
-      "source": "/shop.html",
+      "source": "shop.html",
       "destination": "/shop",
       "permanent": true
     }
