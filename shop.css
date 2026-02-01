@@ -102,7 +102,7 @@ h1 {
 .products {
   width: 100%;
   height: max-content;
-  margin-top: 40px;
+  margin-top: 32px;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -208,4 +208,5 @@ footer .copyrights {
   font-size: 14px;
   color: var(--muted);
 }
+
 
