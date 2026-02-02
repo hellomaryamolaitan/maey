@@ -399,9 +399,9 @@ footer .hidden {
     margin-bottom: 12px;
   }
 
-  .image {
+  /* .image {
     width: 100%;
-  }
+  } */
 
   .product_container {
     width: 100%;
@@ -491,6 +491,10 @@ footer .hidden {
     margin-bottom: 12px;
   }
 
+  .img_container {
+    flex-flow: column;
+  }
+
   .image {
     width: 100%;
   }
@@ -552,6 +556,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
