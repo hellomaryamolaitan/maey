@@ -146,7 +146,7 @@ main {
 .products h2 {
   width: 80%;
   margin: 0 auto;
-  margin-top: 12px;
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -459,6 +459,15 @@ footer .hidden {
     font-size: 28px;
   }
 
+  .products h2 {
+    width: 80%;
+    margin-bottom: 2px;
+  }
+
+  .products {
+    margin: 40px auto;
+  }
+
   .testimonial_container,   .product_container  {
     width: 92%;
     flex-flow: column;
@@ -475,18 +484,6 @@ footer .hidden {
 
   .image {
     width: 100%;
-  }
-
-  .products h2 {
-    width: 80%;
-  }
-
-  .products {
-    margin: 40px auto;
-  }
-
-  .products h2 {
-    margin-bottom: 2px;
   }
 
   .img_container img {
@@ -534,6 +531,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
