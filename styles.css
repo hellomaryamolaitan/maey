@@ -40,7 +40,8 @@ header {
   z-index: 1;
   position: sticky;
   top: 0;
-  background: var(--bg);      
+  background: var(--bg);  
+  font-family: "Inter", sans-serif;
 }
 
 header .logo {
@@ -67,7 +68,6 @@ header a {
   color: #fff;
   padding: 8px 16px;
   border-radius: 28px;
-  font-family: "inter", sans-serif;
 }
 
 .btn:hover {
@@ -82,8 +82,7 @@ main {
   flex-flow: column;
   justify-content: space-evenly;
   background-color: var(--bg);
-/*   padding: 60px 20px;
- */}
+}
 
 .hero {
   width: 100%;
@@ -131,27 +130,7 @@ main {
   color: var(--primary);
 }
 
-/* .hero span img, .final-cta span img {
-  width: 28px;
-  height: 20px; 
-  margin-left: 8px;
-  vertical-align: middle;
-  animation: arrow both 0.8s ease-in-out infinite;
-}
-
-@keyframes arrow {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(5px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-} */
-
-.hero .btn:hover, .final-cta .btn:hover {
+.btn:hover {
   opacity: 0.8;
 }
 
@@ -572,6 +551,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
