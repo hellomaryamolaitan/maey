@@ -289,16 +289,6 @@ h2 {
   justify-content: space-between;
 }
 
-/* .img_container div {
-  width: 96%;
-  margin: 0 auto 20px auto;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-} */
-
 .img_container img {
   width: 32%;
   height: auto;
@@ -556,6 +546,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
