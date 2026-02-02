@@ -41,7 +41,6 @@ header {
   position: sticky;
   top: 0;
   background: var(--bg);  
-  font-family: "Inter", sans-serif;
 }
 
 header .logo {
@@ -56,6 +55,7 @@ nav {
   flex-flow: row;
   justify-content: space-evenly;
   align-items: center;
+  font-family: "Inter", sans-serif;
 }
 
 header a {
@@ -545,6 +545,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
