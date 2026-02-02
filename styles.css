@@ -98,7 +98,7 @@ main {
 }
 
 .hero h1 {
-  font-size: 72px;
+  font-size: 80px;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -447,7 +447,7 @@ footer .hidden {
   }
   
   .hero h1 {
-    font-size: 32px;
+    font-size: 36px;
   }
 
   .hero p {
@@ -534,6 +534,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
