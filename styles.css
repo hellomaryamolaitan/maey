@@ -134,6 +134,66 @@ main {
   cursor: pointer;
 }
 
+.products {
+  width: 92%;
+  height: max-content;
+  margin: 60px auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.products h2 {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.product_container {
+  width: 92%;
+  height: max-content;
+  margin: 0px auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.product {
+  width: 28%;
+  height: 360px;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff7f7;
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.product p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.product h3 {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.price {
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.product .btn {
+  margin: 0 auto;
+  padding: 8px 16px;
+}
+
 .testimonials {
   width: 100%;
   height: max-content;
@@ -191,76 +251,6 @@ h2 {
   width: 100%;
   height: auto;
   display: block;
-}
-
-.products {
-  width: 92%;
-  height: max-content;
-  margin: 60px auto;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
-
-.products h2 {
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-.product_container {
-  width: 92%;
-  height: max-content;
-  margin: 0px auto;
-  display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-}
-
-.product {
-  width: 28%;
-  height: 360px;
-  padding: 20px;
-  margin: 0 auto;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  text-align: center;
-
-  background-color: #fff7f7;
-  background-position: top;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-/* .product:nth-child(2) {
-  background-image:  url(images/IMG_6591.png);
-}
-.product:nth-child(2) {
-  background-image:  url(images/IMG_6591.png);
-}
-.product:nth-child(2) {
-  background-image:  url(images/IMG_6591.png);
-} */
-
-.product p {
-  font-size: 14px;
-  margin-bottom: 8px;
-}
-
-.product h3 {
-  font-size: 24px;
-  font-weight: 100;
-}
-
-.price {
-  font-weight: bold;
-  margin: 8px 0;
-}
-
-.product .btn {
-  margin: 0 auto;
-  padding: 8px 16px;
 }
 
 .gallery {
@@ -544,6 +534,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
