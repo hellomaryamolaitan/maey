@@ -64,6 +64,7 @@ header a {
   color: #fff;
   padding: 8px 16px;
   border-radius: 20px;
+  font-family: "Inter", sans-serif;
 }
 
 .btn:hover {
@@ -175,7 +176,7 @@ ul li {
   border-radius: 20px;
   font-size: 14px;
   transition: background 0.3s ease;
-  /* font-family: "Inter", sans-serif; */
+  font-family: "Inter", sans-serif;
 }
 
 .cta:hover {
@@ -269,6 +270,7 @@ footer .copyrights {
     font-size: 14px;
   }
 }
+
 
 
 
