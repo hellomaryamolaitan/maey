@@ -138,7 +138,6 @@ main {
   width: 100%;
   height: max-content;
   margin: 0 auto;
-  margin-top: 60px;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
@@ -206,7 +205,7 @@ h2 {
 .products h2 {
   width: 80%;
   margin: 0 auto;
-  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .product_container {
@@ -545,6 +544,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
