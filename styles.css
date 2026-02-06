@@ -167,9 +167,9 @@ main {
   display: flex;
   flex-flow: column;
   justify-content: center;
- /*  text-align: center; */
+/*   text-align: center;
   background-color: #fff7f737;
-  background-blend-mode: overlay;
+  background-blend-mode: overlay; */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -543,6 +543,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
