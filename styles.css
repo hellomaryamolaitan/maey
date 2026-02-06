@@ -169,9 +169,13 @@ main {
   justify-content: center;
   text-align: center;
   background-color: #fff7f7;
-  background-position: top;
+  background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.product:nth-child(1) {
+  background-image: url(IMG_4235);
 }
 
 .product p {
@@ -531,6 +535,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
