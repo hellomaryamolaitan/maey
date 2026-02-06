@@ -150,7 +150,7 @@ main {
 }
 
 .product_container {
-  width: 92%;
+  width: 96%;
   height: max-content;
   margin: 0px auto;
   margin-top: 20px;
@@ -160,14 +160,14 @@ main {
 }
 
 .product_container div {
-  width: 28%;
+  width: 32%;
   height: max-content;
   display: flex;
   flex-flow: column;
 }
 
 .product_container div img {
-  width: 96%;
+  width: 100%;
   height: auto;
 }
 
@@ -537,6 +537,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
