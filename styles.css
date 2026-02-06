@@ -161,7 +161,7 @@ main {
 
 .product_container div {
   width: 32%;
-  height: max-content;
+  height: 60vh;
   display: flex;
   flex-flow: column;
 }
@@ -537,6 +537,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
