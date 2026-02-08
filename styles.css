@@ -137,7 +137,7 @@ main {
 .products {
   width: 92%;
   height: max-content;
-  margin: 40px auto;
+  margin: 60px auto;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
@@ -188,10 +188,10 @@ main {
   margin: 8px 0;
 }
 
-.product_card .btn {
+/* .product_card .btn {
   margin: 0 auto;
   padding: 8px 16px;
-}
+} */
 
 .testimonials {
   width: 100%;
