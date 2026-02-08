@@ -188,10 +188,10 @@ main {
   margin: 8px 0;
 }
 
-/* .product_card .btn {
+.product_card .btn {
   margin: 0 auto;
   padding: 8px 16px;
-} */
+}
 
 .testimonials {
   width: 100%;
@@ -530,6 +530,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
