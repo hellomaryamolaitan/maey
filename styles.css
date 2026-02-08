@@ -456,7 +456,7 @@ footer .hidden {
 
   .products h2 {
     width: 80%;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
   }
 
   .products {
@@ -526,6 +526,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
