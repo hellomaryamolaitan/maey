@@ -232,6 +232,10 @@ footer .copyrights {
   color: var(--muted);
 }
 
+footer .hidden {
+  display: none:
+}
+
 @media screen and (max-width: 800px) {
   
   header {
@@ -298,6 +302,7 @@ footer .copyrights {
     font-size: 12px;
   }
 }
+
 
 
 
