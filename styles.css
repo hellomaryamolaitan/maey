@@ -83,7 +83,7 @@ main {
 }
 
 .hero {
-  width: 100vw;
+  width: 100%;
   height: 88vh;
   margin: 0 auto;
   display: flex;
@@ -438,7 +438,7 @@ footer .hidden {
   }
 
   .hero {
-    height: 68vh;
+    height: 74vh;
   }
   
   .hero h1 {
@@ -526,6 +526,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
