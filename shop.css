@@ -144,6 +144,7 @@ h1 {
 .product-card:nth-child(1) {
   background-image: url(images/IMG_4235.JPEG);
 }
+
 .product-card:nth-child(2) {
   background-image: url(images/IMG_4230.JPEG);
 }
@@ -236,9 +237,14 @@ footer .copyrights {
   header {
     padding: 8px 20px;
   }
-
-  .product-card {
+  
+  .products {
     flex-flow: row wrap;
+  }
+  
+  .product-card {
+    /* flex-flow: row wrap; */
+    width: 48%;
     margin: 12px auto;
   }
 }
@@ -268,6 +274,7 @@ footer .copyrights {
   .products {
     flex-flow: column;
   }
+  
   .product-card {
     width: 96%;
     margin: 12px auto;
@@ -291,6 +298,7 @@ footer .copyrights {
     font-size: 12px;
   }
 }
+
 
 
 
