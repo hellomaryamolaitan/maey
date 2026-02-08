@@ -309,7 +309,7 @@ h2 {
 
 .faq-section {
   width: 100%;
-  padding: 64px 0;
+  padding: 40px 0;
   background: #ffffff;
 }
 
@@ -371,6 +371,7 @@ h2 {
 
 .faq-cta {
   text-align: center;
+  margin-top: -12px;
 }
 
 .faq-cta-text {
@@ -624,6 +625,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
