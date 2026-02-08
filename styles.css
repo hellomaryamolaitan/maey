@@ -376,10 +376,6 @@ footer .hidden {
     margin-bottom: 12px;
   }
 
-  /* .image {
-    width: 100%;
-  } */
-
   .product_container {
     width: 100%;
   }
@@ -392,7 +388,7 @@ footer .hidden {
     margin: 40px auto;
   }
   
-  .product {
+  .product_card {
     width: 32%;
     margin: 12px auto;
   }
@@ -472,7 +468,7 @@ footer .hidden {
     flex-flow: column;
   }
 
-  .testimonial, .product {
+  .testimonial, .product_card {
     width: 100%;
     margin-bottom: 12px;
   }
@@ -530,6 +526,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
