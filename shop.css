@@ -257,6 +257,10 @@ footer .copyrights {
     font-size: 14px;
   }
 
+  .subtitle {
+    width: 88%;
+  }
+
     .btn, .cta {
     padding: 4px 12px;
   }
@@ -287,6 +291,7 @@ footer .copyrights {
     font-size: 12px;
   }
 }
+
 
 
 
