@@ -279,17 +279,15 @@ footer .copyrights {
 }
 
 @media screen and (max-width: 328px) {
-  .btn {
-    padding: 4px;
-  }
    h1 {
     font-size: 28px;
   }
   
-  p {
-    font-size: 14px;
+  a, p {
+    font-size: 12px;
   }
 }
+
 
 
 
