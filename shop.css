@@ -233,7 +233,7 @@ footer .copyrights {
 }
 
 footer .hidden {
-  display: none:
+  display: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -302,6 +302,7 @@ footer .hidden {
     font-size: 12px;
   }
 }
+
 
 
 
