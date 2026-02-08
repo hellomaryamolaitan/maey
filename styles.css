@@ -293,7 +293,7 @@ h2 {
   align-items: center;
   text-align: center;
   color: var(--primary);
-  background-color: #fff7f7;
+  /* background-color: #fff7f7; */
 }
 
 .philosophy h2 {
@@ -598,6 +598,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
