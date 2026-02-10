@@ -371,7 +371,6 @@ h2 {
 
 .faq-cta {
   text-align: center;
-  /* margin-top: -12px; */
 }
 
 .faq-cta-text {
@@ -383,6 +382,7 @@ h2 {
   display: inline-block;
   background: #8b0000;
   color: #fff;
+  margin-top: 20px;
   padding: 12px 28px;
   border-radius: 30px;
   font-size: 14px;
@@ -625,6 +625,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
