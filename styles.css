@@ -371,7 +371,7 @@ h2 {
 
 .faq-cta {
   text-align: center;
-  margin-top: -12px;
+  /* margin-top: -12px; */
 }
 
 .faq-cta-text {
@@ -625,6 +625,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
