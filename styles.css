@@ -411,7 +411,7 @@ h2 {
 .final-cta h2 {
   color: #fff;
   margin-bottom: 20px;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 footer {
@@ -625,6 +625,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
