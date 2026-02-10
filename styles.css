@@ -409,6 +409,7 @@ h2 {
 }
 
 .final-cta h2 {
+  font-size: 21px;
   color: #fff;
   margin-bottom: 20px;
   font-style: italic;
@@ -625,6 +626,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
