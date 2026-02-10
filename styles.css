@@ -399,13 +399,13 @@ h2 {
   width: 96%;
   height: max-content;
   margin: 0 auto;
-  margin-top: 40px;
-  padding: 60px 20px;
+  margin-top: 60px;
+  padding: 40px 20px;
   display: flex;
   flex-flow: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #8b0000;
+  background-color: #fff;
 }
 
 .final-cta h2 {
@@ -625,6 +625,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
