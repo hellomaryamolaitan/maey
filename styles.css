@@ -409,7 +409,6 @@ h2 {
 }
 
 .final-cta h2 {
-  font-size: 18px;
   color: #fff;
   margin-bottom: 20px;
   font-style: italic;
@@ -605,7 +604,7 @@ footer .hidden {
   }
 
   .final-cta h2 {
-    font-size: 28px;
+    font-size: 21px;
   }
 
   footer .social {
@@ -626,6 +625,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
