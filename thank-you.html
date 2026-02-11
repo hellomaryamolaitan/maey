@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payment Successful | Maey</title>
+<link rel="stylesheet" href="thank-you.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+  <h1>Payment Successful</h1>
+  <p>
+    Thank you for your order. We’ll finalize your delivery details via WhatsApp.
+  </p>
+
+  <div class="reference-box" id="referenceDisplay"></div>
+
+  <a id="whatsappBtn"
+     class="btn"
+     target="_blank"
+     rel="noopener">
+     Confirm Delivery on WhatsApp →
+  </a>
+
+  <p style="margin-top:20px; font-size:13px;">
+    Redirecting you automatically…
+  </p>
+</div>
+
+<script>
+function getQueryParam(param) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(param);
+}
+
+const reference = getQueryParam("reference");
+
+if (reference) {
+  document.getElementById("referenceDisplay").innerText =
+    "Payment Reference: " + reference;
+}
+
+const message = encodeURIComponent(
+  "Hi Maey, I just completed my payment.\n\n" +
+  "Payment Reference: " + (reference || "N/A") + "\n\n" +
+  "Here are my delivery details:\n\n" +
+  "Full Name:\nAddress:\nCity:\nPhone Number:\n\nThank you."
+);
+
+const whatsappNumber = "2348144105468"; 
+
+const whatsappLink = "https://wa.me/" + whatsappNumber + "?text=" + message;
+
+document.getElementById("whatsappBtn").href = whatsappLink;
+
+// Auto redirect after 3 seconds
+setTimeout(function() {
+  window.location.href = whatsappLink;
+}, 3000);
+</script>
+
+</body>
+</html>
