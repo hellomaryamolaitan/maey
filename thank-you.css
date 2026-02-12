@@ -1,23 +1,31 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
-  background: #ffffff;
-  color: #000000;
+  background: #fdfdfd;
+  color: #000;
+}
+
+.wrapper {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  text-align: center;
+  padding: 20px;
 }
 
-.container {
-  max-width: 600px;
+.card {
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  background: #ffffff;
   padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
 }
 
 h1 {
   font-family: "Playfair Display", serif;
-  font-size: 36px;
+  font-size: 32px;
   margin-bottom: 16px;
 }
 
@@ -29,38 +37,39 @@ h1 {
 
 .reference-box {
   font-size: 14px;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
   color: #8b0000;
   font-weight: 500;
 }
 
-.btn {
+.primary-btn {
   display: inline-block;
   background: #8b0000;
-  color: #ffffff;
-  padding: 14px 30px;
+  color: #fff;
+  padding: 14px 28px;
   border-radius: 30px;
   text-decoration: none;
   font-weight: 500;
-  transition: background 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-.btn:hover {
+.primary-btn:hover {
   background: #660000;
+  transform: translateY(-2px);
 }
 
-.small-text {
-  margin-top: 20px;
+.small-note {
+  margin-top: 18px;
   font-size: 13px;
   color: #777;
 }
 
 @media (max-width: 600px) {
-  h1 {
-    font-size: 28px;
+  .card {
+    padding: 28px;
   }
 
-  .container {
-    padding: 24px;
+  h1 {
+    font-size: 26px;
   }
 }
