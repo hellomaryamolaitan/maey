@@ -4,47 +4,48 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Payment Successful | Maey Beauty</title>
+<title>Payment Successful | Maey</title>
 
-<meta name="description" content="Your Maey order has been successfully processed. Complete your delivery confirmation to receive your lip gloss.">
+<meta name="description" content="Your Maey order has been successfully processed. Confirm your delivery details to receive your gloss.">
 
 <meta name="robots" content="noindex, nofollow">
 
-<link rel="canonical" href="https://maey.com.ng/thank-you">
+<link rel="canonical" href="https://maey.com.ng/thank-you.html">
 
 <meta property="og:title" content="Payment Successful | Maey">
-<meta property="og:description" content="Your Maey order has been successfully processed. Confirm delivery details to receive your gloss.">
+<meta property="og:description" content="Your Maey order has been successfully processed. Confirm your delivery details to receive your gloss.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://maey.com.ng/thank-you">
+<meta property="og:url" content="https://maey.com.ng/thank-you.html">
 <meta property="og:image" content="https://maey.com.ng/images/maey.ico">
-
-<link rel="icon" href="/maey">
-
-<link rel="stylesheet" href="thank-you.css">
-
+<link rel="stylesheet" href="/thank-you.css">
+<link rel="icon" href="/maey.ico">
 </head>
 
 <body>
 
-<div class="container">
-  <h1>Payment Successful</h1>
+<div class="wrapper">
 
-  <p class="subtitle">
-    Thank you for choosing Maey. Your order has been received.
-  </p>
+  <div class="card">
+    <h1>Payment Successful</h1>
 
-  <div class="reference-box" id="referenceDisplay"></div>
+    <p class="subtitle">
+      Thank you for choosing Maey. Your order has been received.
+    </p>
 
-  <a id="whatsappBtn"
-     class="btn"
-     target="_blank"
-     rel="noopener">
-     Confirm Delivery on WhatsApp →
-  </a>
+    <div class="reference-box" id="referenceDisplay"></div>
 
-  <p class="small-text">
-    You will be redirected automatically.
-  </p>
+    <a id="whatsappBtn"
+       class="primary-btn"
+       target="_blank"
+       rel="noopener">
+       Confirm Delivery on WhatsApp →
+    </a>
+
+    <p class="small-note">
+      Redirecting you automatically...
+    </p>
+  </div>
+
 </div>
 
 <script>
@@ -57,7 +58,7 @@ const reference = getQueryParam("reference");
 
 if (reference) {
   document.getElementById("referenceDisplay").innerText =
-    "Payment Reference: " + reference;
+    "Order ID: " + reference;
 }
 
 const message = encodeURIComponent(
@@ -67,7 +68,7 @@ const message = encodeURIComponent(
   "Full Name:\nAddress:\nCity:\nPhone Number:\n\nThank you."
 );
 
-const whatsappNumber = "234XXXXXXXXXX"; // Replace
+const whatsappNumber = "2348144105468";
 
 const whatsappLink = "https://wa.me/" + whatsappNumber + "?text=" + message;
 
@@ -75,7 +76,7 @@ document.getElementById("whatsappBtn").href = whatsappLink;
 
 setTimeout(function() {
   window.location.href = whatsappLink;
-}, 3000);
+}, 5000);
 </script>
 
 </body>
