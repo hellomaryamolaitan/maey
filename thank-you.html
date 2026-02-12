@@ -3,17 +3,34 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Payment Successful | Maey</title>
+
+<title>Payment Successful | Maey Beauty</title>
+
+<meta name="description" content="Your Maey order has been successfully processed. Complete your delivery confirmation to receive your lip gloss.">
+
+<meta name="robots" content="noindex, nofollow">
+
+<link rel="canonical" href="https://maey.com.ng/thank-you">
+
+<meta property="og:title" content="Payment Successful | Maey">
+<meta property="og:description" content="Your Maey order has been successfully processed. Confirm delivery details to receive your gloss.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://maey.com.ng/thank-you">
+<meta property="og:image" content="https://maey.com.ng/images/maey.ico">
+
+<link rel="icon" href="/maey">
+
 <link rel="stylesheet" href="thank-you.css">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
 <div class="container">
   <h1>Payment Successful</h1>
-  <p>
-    Thank you for your order. We’ll finalize your delivery details via WhatsApp.
+
+  <p class="subtitle">
+    Thank you for choosing Maey. Your order has been received.
   </p>
 
   <div class="reference-box" id="referenceDisplay"></div>
@@ -25,8 +42,8 @@
      Confirm Delivery on WhatsApp →
   </a>
 
-  <p style="margin-top:20px; font-size:13px;">
-    Redirecting you automatically…
+  <p class="small-text">
+    You will be redirected automatically.
   </p>
 </div>
 
@@ -50,13 +67,12 @@ const message = encodeURIComponent(
   "Full Name:\nAddress:\nCity:\nPhone Number:\n\nThank you."
 );
 
-const whatsappNumber = "2348144105468"; 
+const whatsappNumber = "234XXXXXXXXXX"; // Replace
 
 const whatsappLink = "https://wa.me/" + whatsappNumber + "?text=" + message;
 
 document.getElementById("whatsappBtn").href = whatsappLink;
 
-// Auto redirect after 3 seconds
 setTimeout(function() {
   window.location.href = whatsappLink;
 }, 3000);
