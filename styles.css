@@ -376,7 +376,6 @@ h2 {
 .faq-cta-text {
   font-size: 15px;
   color: #8b0000;
-  font-family: "Inter", sans-serif;
 }
 
 .faq-cta-btn {
@@ -386,6 +385,7 @@ h2 {
   margin-top: 20px;
   padding: 12px 28px;
   border-radius: 30px;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
@@ -626,6 +626,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
