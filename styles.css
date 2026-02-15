@@ -387,7 +387,6 @@ h2 {
   border-radius: 30px;
   font-family: "Inter", sans-serif;
   font-size: 14px;
-  font-weight: 500;
   text-decoration: none;
   transition: background 0.3s ease;
 }
@@ -626,6 +625,7 @@ footer .hidden {
     font-size: 14px;
   }
 }
+
 
 
 
